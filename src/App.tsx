@@ -1,11 +1,13 @@
-import Component from '@/components/Component'
+import { Container } from './components/Layout/Container'
+import { Main } from './components/Layout/Main'
+import { Sidebar } from './components/Layout/Sidebar'
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <Component />
-    </div>
+    <Container>
+      <Sidebar />
+      <Main />
+    </Container>
   )
 }
 
