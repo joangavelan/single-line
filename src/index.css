@@ -11,6 +11,15 @@
   }
 }
 
+@layer components {
+  .subTitle {
+    @apply mb-2 text-2xl font-bold;
+  }
+  .row {
+    @apply flex items-center justify-between text-lg;
+  }
+}
+
 @layer utilities {
   .absoluteCenter {
     @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform;
